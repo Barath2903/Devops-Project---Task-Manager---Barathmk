@@ -1,11 +1,5 @@
 # Fix Docker Daemon Issue
 
-## Problem
-```
-Cannot connect to the Docker daemon at unix:///Users/barath/.docker/run/docker.sock. 
-Is the docker daemon running?
-```
-
 ## Solution: Start Docker Desktop
 
 ### On macOS:
