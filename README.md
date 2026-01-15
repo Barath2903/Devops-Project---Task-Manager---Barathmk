@@ -132,6 +132,10 @@ docker build -t api-gateway:latest -f api-gateway/Dockerfile .
 ### Push to Registry
 ```bash
 docker tag task-service:latest <registry>/task-service:latest
+or try
+
+cd "/Users/barath/Task Manager Devops" && docker ps | grep -E "registry|task|user|api"
+
 docker push <registry>/task-service:latest
 ```
 
