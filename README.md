@@ -94,9 +94,11 @@ mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=YOUR_TOKEN
 ```
 
 To run Future analysis
+```
 cd /Users/barath/Task\ Manager\ Devops
 mvn clean package -DskipTests
 mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=squ_2fccecf06a02c7811d561cdc31a55235b17c02ac
+```
 
 ## API Endpoints
 
